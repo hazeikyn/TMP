@@ -2,4 +2,4 @@
 Telegram - Message - Program
 
 # Command Build to exe: 
-flet build windows 
+pyinstaller --onefile --noconsole --icon=assets/icon.ico --add-data "setting.json;." main.py
